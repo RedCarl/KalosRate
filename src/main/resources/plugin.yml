@@ -13,7 +13,6 @@ api-version: 1.8
 depend:
   - Essentials
   - Vault
-  - HamsterEcoHelper
 
 commands:
   KalosRate:
