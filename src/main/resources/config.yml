@@ -1,0 +1,6 @@
+##转账手续费
+Cost: 0.1
+##true(从转账发起人的账户中扣除手续费) false(从转账收款人的账户中扣除手续费)
+Object: true
+##扣款指令，可兼容其他插件    %player%(玩家ID) %cost%(Cost*转账金额=应缴费用)
+command: "hamsterecohelper balance take %player% %cost%"

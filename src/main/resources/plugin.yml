@@ -1,0 +1,23 @@
+main: red.kalos.rate.Main
+name: KalosRate
+
+version: ${project.version}
+description: ${project.description}
+website: ${project.url}
+
+authors:
+  - KalosStudios
+
+api-version: 1.8
+
+depend:
+  - Essentials
+  - Vault
+  - HamsterEcoHelper
+
+commands:
+  KalosRate:
+    aliases:
+      - kalosrate
+      - kr
+    description: "主指令。"
